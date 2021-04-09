@@ -9,12 +9,12 @@
   <body>
     <h1>Add a fungus to the library!</h1>
 
-    <form id="create-product">
+    <form action='/' method='POST' id="form">
       <input type="text" name="fungiName" placeholder="Fungus Name" />
       <input type="text" name="fungiDescription" placeholder="Fungus Description"/>
-      <input type="file" name='fungiImage'>
+      <input type="file" name='upload_file'>
 
-      <button>Add Fungas</button>
+      <input type='submit'>Add Fungus</button>
     </form>
 
     <ul id="fungi"></ul>

@@ -2,6 +2,6 @@ DROP TABLE IF EXISTS fungi;
 
 CREATE TABLE fungi(
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    fungi_name TEXT NOT NULL,
-    fungi_description TEXT NOT NULL
+    name TEXT NOT NULL,
+    description TEXT NOT NULL
 )
